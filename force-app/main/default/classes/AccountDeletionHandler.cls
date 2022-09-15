@@ -8,6 +8,7 @@ public class AccountDeletionHandler {
         for(Account a:oldList){
             if(mapAcc.get(a.Id).Contacts.size()>2){
                 a.addError('can not be delete the account');
+                // my first change
             }
         }
     }
