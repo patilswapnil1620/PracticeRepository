@@ -18,4 +18,5 @@ public class CityCountTrigHandlerTest {
     Test.stopTest();
         System.assertEquals(1, act.Number_of_Cities__c);
     } 
+    // adding comment for test
 }
